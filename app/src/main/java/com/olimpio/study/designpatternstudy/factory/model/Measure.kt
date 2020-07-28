@@ -1,4 +1,4 @@
-package com.olimpio.study.designpatternstudy.factory
+package com.olimpio.study.designpatternstudy.factory.model
 
 interface Measure {
 

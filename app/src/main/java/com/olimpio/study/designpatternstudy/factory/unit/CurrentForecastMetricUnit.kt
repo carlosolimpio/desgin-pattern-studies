@@ -1,6 +1,8 @@
-package com.olimpio.study.designpatternstudy.factory
+package com.olimpio.study.designpatternstudy.factory.unit
 
-class CurrentForecastMetricUnit(
+import com.olimpio.study.designpatternstudy.factory.unit.CurrentForecast
+
+data class CurrentForecastMetricUnit(
     private var tempValue: Number,
     private var windSpeedValue: Number
 ) : CurrentForecast(tempValue, windSpeedValue) {
@@ -16,7 +18,7 @@ class CurrentForecastMetricUnit(
     override fun calculateWindSpeed() {}
 
     override fun show(): String {
-        return super.getTemperature().getValue().toString() + "ºC " +
-                super.getWindSpeed().getValue().toString() + "Km/H"
+        return temperature.getValue().toString() + "ºC " +
+                windSpeed.getValue().toString() + "Km/H"
     }
 }
