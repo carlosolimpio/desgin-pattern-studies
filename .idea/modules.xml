@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Design_Pattern_Study.iml" filepath="$PROJECT_DIR$/.idea/modules/Design_Pattern_Study.iml" group="Design_Pattern_Study" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Design Pattern Study/app" />
-    </modules>
-  </component>
-</project>
