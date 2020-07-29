@@ -12,13 +12,8 @@ abstract class CurrentForecast(
     protected var windSpeed: WindSpeed private set
 
     init {
-       temperature =
-           Temperature(
-               tempValue
-           )
-       windSpeed = WindSpeed(
-           windSpeedValue
-       )
+       temperature = Temperature(tempValue)
+       windSpeed = WindSpeed(windSpeedValue)
     }
 
     abstract fun calculateTemperature()
